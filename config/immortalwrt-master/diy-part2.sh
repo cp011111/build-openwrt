@@ -26,7 +26,7 @@ echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.de
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+svn co https://github.com/ophub/luci-app-amlogic/tree/main/luci-app-amlogic
 
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
