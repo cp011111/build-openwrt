@@ -17,6 +17,9 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 
 # Modify default IP（FROM 192.168.1.1 CHANGE TO 192.168.31.4）
 # sed -i 's/192.168.1.1/192.168.31.4/g' package/base-files/files/bin/config_generate
+# 
+#####Add a feed source
+echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.default
 #
 # ------------------------------- Main source ends -------------------------------
 
